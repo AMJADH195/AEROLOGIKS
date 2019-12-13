@@ -22,11 +22,11 @@ driver.get('https://www.linkedin.com/')
 time.sleep(1)
 
 username = driver.find_element_by_name("session_key")
-username.send_keys('amjadh1996@gmail.com')
+username.send_keys('')
 sleep(0.5)
 
 password = driver.find_element_by_name('session_password')
-password.send_keys('lq0076c@')
+password.send_keys('')
 sleep(0.5)
 
 sign_in_button = driver.find_element_by_class_name('sign-in-form__submit-btn')
